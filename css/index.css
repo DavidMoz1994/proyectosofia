@@ -189,3 +189,15 @@ footer h2 {
 .conoceme {
     display: flex;
 }
+
+@media screen and (max-width:480px){
+    .cuerpo{
+        grid-template-areas: "titulo"
+                            "texto";
+    }
+
+    .cuerpoConoceme{
+        grid-template-areas: "titulo"
+                             "texto";
+    }
+}

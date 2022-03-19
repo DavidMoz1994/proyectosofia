@@ -219,3 +219,20 @@ footer h2 {
             "texto";
     }
 }
+
+@media screen and (max-width:768px) {
+    .navbar {
+        font-size: 2em;
+        flex-direction: column;
+    }
+
+    .cuerpo {
+        grid-template-areas: "titulo"
+            "texto";
+    }
+
+    .cuerpoConoceme {
+        grid-template-areas: "titulo"
+            "texto";
+    }
+}

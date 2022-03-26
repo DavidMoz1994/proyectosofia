@@ -11,8 +11,7 @@
 /*globales*/
 body {
     background: linear-gradient(to bottom, #49c9f6, #1ed3de, #57d8b7, #94d88e, #cdd171);
-    /* background-size: cover;
-    background-repeat: no-repeat; */
+
 }
 
 a {
@@ -21,7 +20,7 @@ a {
     font-family: var(--font-primary);
 }
 
-li {
+li>a {
     border-right: 3px solid white;
     height: 30px;
     padding: 10px 10px;
@@ -75,8 +74,9 @@ header .menu {
     width: 90%;
     transition: width 5s ease-in;
 }
-.cuerpo img:hover{
-    width:200%;
+
+.cuerpo img:hover {
+    width: 200%;
 }
 
 .cuerpo p {
@@ -109,7 +109,8 @@ header .menu {
 
 .cuerpoConoceme img {
     grid-area: imagen;
-    height: 36.5em;
+    margin-top: 0em;
+    width: 120%;
     padding: 1em 9em;
     transition: width .5 ease-in;
 
@@ -203,9 +204,8 @@ footer h2 {
 .redes {
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    padding: 0 20em;
 }
 
 .conoceme {

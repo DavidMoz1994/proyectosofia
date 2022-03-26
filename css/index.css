@@ -76,7 +76,7 @@ header .menu {
     transition: width 5s ease-in;
 }
 .cuerpo img:hover{
-    width:150%;
+    width:200%;
 }
 
 .cuerpo p {

@@ -70,8 +70,13 @@ header .menu {
 
 .cuerpo img {
     grid-area: imagen;
-    height: 30em;
+    /* height: 30em; */
     margin-top: 0em;
+    width: 90%;
+    transition: width 5s ease-in;
+}
+.cuerpo img:hover{
+    width:150%;
 }
 
 .cuerpo p {
@@ -106,6 +111,7 @@ header .menu {
     grid-area: imagen;
     height: 36.5em;
     padding: 1em 9em;
+    transition: width .5 ease-in;
 
 }
 

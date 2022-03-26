@@ -77,9 +77,10 @@ header .menu {
 .cuerpo p {
     grid-area: texto;
     font-family: var(--font-secondary);
-    font-size: 2.46em;
+    font-size: 1.8em;
     text-align: justify;
     color: white;
+    padding: 1rem;
 }
 
 
@@ -111,9 +112,10 @@ header .menu {
 .cuerpoConoceme p {
     grid-area: texto;
     font-family: var(--font-secondary);
-    font-size: 2.46em;
+    font-size: 1.8em;
     text-align: justify;
     color: white;
+    padding: 1rem;
 }
 
 .trayectoria-container {
@@ -204,8 +206,23 @@ footer h2 {
 }
 
 @media screen and (max-width:768px) {
-    .nav__logo--logo{
+    .nav__logo--logo {
         width: 100%;
+
+    }
+
+    .cuerpo h1 {
+        text-align: center;
+    }
+
+    .cuerpoConoceme h1 {
+        text-align: left;
+    }
+
+    .form-container section {
+        flex-direction: column;
+        align-items: center;
+
     }
 
     .navbar {
@@ -215,31 +232,22 @@ footer h2 {
 
     .cuerpo {
         grid-template-areas: "titulo"
-            "texto";
+            "texto"
+            "imagen";
     }
 
     .cuerpoConoceme {
         grid-template-areas: "titulo"
-            "texto";
+            "texto"
+            "imagen";
     }
 }
 
 @media screen and (max-width:480px) {
-    .nav__logo--logo{
-        width: 100%;
-    }
+
     .navbar {
         font-size: 1.2em;
-        flex-direction: column;
+
     }
 
-    .cuerpo {
-        grid-template-areas: "titulo"
-            "texto";
-    }
-
-    .cuerpoConoceme {
-        grid-template-areas: "titulo"
-            "texto";
-    }
 }

@@ -142,6 +142,7 @@ header .menu {
     flex-direction: column;
     color: white;
     font-family: var(--font-primary);
+    padding: 1rem;
 
 }
 

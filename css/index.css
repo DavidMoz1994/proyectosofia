@@ -75,6 +75,35 @@ header .menu {
     transition: width 5s ease-in;
 }
 
+div .col h1{
+    font-family: var(--font-secondary);
+    font-size: 2.5em;
+    text-align: end;
+    color: white;
+
+}
+
+div .col >img{
+    margin-top: 0em;
+    width: 90%;
+    transition: width 5s ease-in;
+
+}
+
+div .col >img:hover{
+    width: 200%;
+
+}
+
+div .col p{
+    font-family: var(--font-secondary);
+    font-size: 1.8em;
+    text-align: justify;
+    color: white;
+    padding: 1rem;
+
+}
+
 .cuerpo img:hover {
     width: 200%;
 }
@@ -217,6 +246,7 @@ footer h2 {
         width: 100%;
 
     }
+
 
     .cuerpo h1 {
         text-align: center;

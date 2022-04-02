@@ -1,0 +1,42 @@
+header{
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2em;
+    }
+
+    .nav__logo--logo {
+        height: 100px;
+    }
+
+    .menu{
+        display: flex;
+        flex-basis: 40%;
+        list-style: none;
+        justify-content: space-between;
+    
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .nav__logo--logo {
+        width: 100%;
+
+    }
+    .navbar {
+        font-size: 2em;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .navbar {
+        font-size: 1.2em;
+
+    }
+
+}

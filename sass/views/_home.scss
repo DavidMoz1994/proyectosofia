@@ -1,0 +1,50 @@
+.cuerpo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "titulo texto"
+        "imagen texto";
+    gap: 1em;
+
+    h1 {
+        grid-area: titulo;
+        font-family: $font-secondary;
+        font-size: 2.5em;
+        text-align: end;
+        color: white;
+    
+    }
+
+    img {
+        grid-area: imagen;
+        /* height: 30em; */
+        margin-top: 0em;
+        width: 90%;
+        transition: width 5s ease-in;
+    }
+
+    img:hover {
+        width: 200%;
+    }
+
+    p {
+        grid-area: texto;
+        font-family: $font-secondary;
+        font-size: 1.8em;
+        text-align: justify;
+        color: white;
+        padding: 1rem;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .cuerpo {
+        grid-template-areas: "titulo"
+            "texto"
+            "imagen";
+
+            h1 {
+                text-align: center;
+            }
+        }
+    }

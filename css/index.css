@@ -3,13 +3,21 @@
 
 /*import*/
 
-:root {
+/* :root {
     --font-primary: "Inter", sans-serif;
     --font-secondary: "Bowly One SC", cursive;
-}
+} */
+
+/* reset */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
 
 /*globales*/
-body {
+/* body {
     background: linear-gradient(to bottom, #49c9f6, #1ed3de, #57d8b7, #94d88e, #cdd171);
 
 }
@@ -17,19 +25,19 @@ body {
 a {
     text-decoration: none;
     color: white;
-    font-family: var(--font-primary);
+    font-family: $font-primary;
 }
 
 li>a {
     border-right: 3px solid white;
     height: 30px;
     padding: 10px 10px;
-}
+} */
 
 
 /*header*/
 
-header .navbar {
+/* header .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,11 +54,11 @@ header .menu {
     list-style: none;
     justify-content: space-between;
 
-}
+} */
 
 /*main*/
 
-.cuerpo {
+/* .cuerpo {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "titulo texto"
@@ -60,7 +68,7 @@ header .menu {
 
 .cuerpo h1 {
     grid-area: titulo;
-    font-family: var(--font-secondary);
+    font-family: $font-secondary;
     font-size: 2.5em;
     text-align: end;
     color: white;
@@ -69,14 +77,13 @@ header .menu {
 
 .cuerpo img {
     grid-area: imagen;
-    /* height: 30em; */
     margin-top: 0em;
     width: 90%;
     transition: width 5s ease-in;
-}
+} */
 
-div .col h1{
-    font-family: var(--font-secondary);
+/* div .col h1{
+    font-family: $font-secondary;
     font-size: 2.5em;
     text-align: end;
     color: white;
@@ -96,26 +103,26 @@ div .col >img:hover{
 }
 
 div .col p{
-    font-family: var(--font-secondary);
+    font-family: $font-secondary;
     font-size: 1.8em;
     text-align: justify;
     color: white;
     padding: 1rem;
 
-}
+} */
 
-.cuerpo img:hover {
+/* .cuerpo img:hover {
     width: 200%;
 }
 
 .cuerpo p {
     grid-area: texto;
-    font-family: var(--font-secondary);
+    font-family: $font-secondary;
     font-size: 1.8em;
     text-align: justify;
     color: white;
     padding: 1rem;
-}
+} */
 
 
 .cuerpoConoceme {
@@ -130,7 +137,7 @@ div .col p{
 .cuerpoConoceme h1 {
 
     grid-area: titulo;
-    font-family: var(--font-secondary);
+    font-family: $font-secondary;
     font-size: 2.5em;
     text-align: end;
     color: white;
@@ -147,7 +154,7 @@ div .col p{
 
 .cuerpoConoceme p {
     grid-area: texto;
-    font-family: var(--font-secondary);
+    font-family: $font-secondary;
     font-size: 1.8em;
     text-align: justify;
     color: white;
@@ -164,7 +171,7 @@ div .col p{
     display: flex;
     flex-direction: column;
     color: white;
-    font-family: var(--font-primary);
+    font-family: $font-primary;
 }
 
 .talleres-container {
@@ -177,7 +184,7 @@ div .col p{
     display: flex;
     flex-direction: column;
     color: white;
-    font-family: var(--font-primary);
+    font-family: $font-primary;
     padding: 1rem;
 
 }
@@ -203,7 +210,7 @@ div .col p{
     gap: 1em;
     background: #57708a;
     color: aliceblue;
-    font-family: var(--font-primary);
+    font-family: $font-primary;
 }
 
 .controls {
@@ -215,7 +222,7 @@ div .col p{
 
 /*footer*/
 
-.form-container footer {
+/* .form-container footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -227,7 +234,7 @@ footer {
 
 footer h2 {
     color: white;
-    font-family: var(--font-secondary);
+    font-family: $font-secondary;
 }
 
 .redes {
@@ -239,18 +246,18 @@ footer h2 {
 
 .conoceme {
     display: flex;
-}
+} */
 
 @media screen and (max-width:768px) {
-    .nav__logo--logo {
+    /* .nav__logo--logo {
         width: 100%;
 
-    }
+    } */
 
 
-    .cuerpo h1 {
+    /* .cuerpo h1 {
         text-align: center;
-    }
+    } */
 
     .cuerpoConoceme h1 {
         text-align: left;
@@ -262,16 +269,16 @@ footer h2 {
 
     }
 
-    .navbar {
+    /* .navbar {
         font-size: 2em;
         flex-direction: column;
-    }
+    } */
 
-    .cuerpo {
+    /* .cuerpo {
         grid-template-areas: "titulo"
             "texto"
             "imagen";
-    }
+    } */
 
     .cuerpoConoceme {
         grid-template-areas: "titulo"
@@ -280,11 +287,11 @@ footer h2 {
     }
 }
 
-@media screen and (max-width:480px) {
+/* @media screen and (max-width:480px) {
 
     .navbar {
         font-size: 1.2em;
 
     }
 
-}
+} */

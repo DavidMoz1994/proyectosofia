@@ -1,0 +1,24 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*globales*/
+body {
+    background: linear-gradient(to bottom, #49c9f6, #1ed3de, #57d8b7, #94d88e, #cdd171);
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: $font-primary;
+}
+
+li>a {
+    border-right: 3px solid white;
+    height: 30px;
+    padding: 10px 10px;
+}

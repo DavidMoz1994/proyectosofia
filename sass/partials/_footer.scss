@@ -2,13 +2,20 @@
 footer {
     background-color: #46bedd;
 
-    .form-container footer {
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .formulario{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
     
-    footer h2 {
+    
+    h2 {
         color: white;
         font-family: $font-secondary;
     }

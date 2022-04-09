@@ -1,0 +1,46 @@
+.cuerpoConoceme {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "titulo texto"
+        "imagen texto";
+    gap: 1em;
+
+    h1{
+        grid-area: titulo;
+    font-family: $font-secondary;
+    font-size: 2.5em;
+    text-align: end;
+    color: white;
+    }
+
+    img{
+        grid-area: imagen;
+        margin-top: 0em;
+        width: 120%;
+        padding: 1em 9em;
+        transition: width .5 ease-in;
+    }
+
+    p{
+        grid-area: texto;
+        font-family: $font-secondary;
+        font-size: 1.8em;
+        text-align: justify;
+        color: white;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    .cuerpoConoceme {
+        grid-template-areas: "titulo"
+            "texto"
+            "imagen";
+    }
+    
+    h1 {
+        text-align: left;
+    }
+
+    }

@@ -1,0 +1,12 @@
+.trayectoria-container {
+    display: grid;
+    grid-template-rows: (2, 10em);
+    gap: 2em;
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-family: $font-primary;
+    }
+}

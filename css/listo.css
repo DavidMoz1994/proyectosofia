@@ -1,0 +1,297 @@
+/*imports*/
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Inter:wght@300;500;700&display=swap');
+
+/*import*/
+
+/* :root {
+    --font-primary: "Inter", sans-serif;
+    --font-secondary: "Bowly One SC", cursive;
+} */
+
+/* reset */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/*globales*/
+/* body {
+    background: linear-gradient(to bottom, #49c9f6, #1ed3de, #57d8b7, #94d88e, #cdd171);
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: $font-primary;
+}
+
+li>a {
+    border-right: 3px solid white;
+    height: 30px;
+    padding: 10px 10px;
+} */
+
+
+/*header*/
+
+/* header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+.nav__logo--logo {
+    height: 100px;
+}
+
+header .menu {
+    display: flex;
+    flex-basis: 40%;
+    list-style: none;
+    justify-content: space-between;
+
+} */
+
+/*main*/
+
+/* .cuerpo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "titulo texto"
+        "imagen texto";
+    gap: 1em;
+}
+
+.cuerpo h1 {
+    grid-area: titulo;
+    font-family: $font-secondary;
+    font-size: 2.5em;
+    text-align: end;
+    color: white;
+
+}
+
+.cuerpo img {
+    grid-area: imagen;
+    margin-top: 0em;
+    width: 90%;
+    transition: width 5s ease-in;
+} */
+
+/* div .col h1{
+    font-family: $font-secondary;
+    font-size: 2.5em;
+    text-align: end;
+    color: white;
+
+}
+
+div .col >img{
+    margin-top: 0em;
+    width: 90%;
+    transition: width 5s ease-in;
+
+}
+
+div .col >img:hover{
+    width: 200%;
+
+}
+
+div .col p{
+    font-family: $font-secondary;
+    font-size: 1.8em;
+    text-align: justify;
+    color: white;
+    padding: 1rem;
+
+} */
+
+/* .cuerpo img:hover {
+    width: 200%;
+}
+
+.cuerpo p {
+    grid-area: texto;
+    font-family: $font-secondary;
+    font-size: 1.8em;
+    text-align: justify;
+    color: white;
+    padding: 1rem;
+} */
+
+
+/* .cuerpoConoceme {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "titulo texto"
+        "imagen texto";
+    gap: 1em;
+}
+
+
+.cuerpoConoceme h1 {
+
+    grid-area: titulo;
+    font-family: $font-secondary;
+    font-size: 2.5em;
+    text-align: end;
+    color: white;
+}
+
+.cuerpoConoceme img {
+    grid-area: imagen;
+    margin-top: 0em;
+    width: 120%;
+    padding: 1em 9em;
+    transition: width .5 ease-in;
+
+}
+
+.cuerpoConoceme p {
+    grid-area: texto;
+    font-family: $font-secondary;
+    font-size: 1.8em;
+    text-align: justify;
+    color: white;
+    padding: 1rem;
+} */
+
+/* .trayectoria-container {
+    display: grid;
+    grid-template-rows: (2, 10em);
+    gap: 2em;
+}
+
+.trayectoria-container main {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: $font-primary;
+} */
+
+/* .talleres-container {
+    display: grid;
+    grid-template-columns: (2, 10em);
+    gap: 4em;
+}
+
+.talleres-container main {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: $font-primary;
+    padding: 1rem;
+
+} */
+
+
+
+/* .form-container {
+    display: grid;
+    grid-template-columns: (2, 10em);
+    gap: 4em;
+
+} */
+
+/* .form-container section {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background: #57708a;
+    color: aliceblue;
+    font-family: $font-primary;
+}
+
+.controls {
+    border-radius: 1em;
+    border: 1px solid black;
+
+} */
+
+
+/*footer*/
+
+/* .form-container footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #46bedd;
+}
+
+footer h2 {
+    color: white;
+    font-family: $font-secondary;
+}
+
+.redes {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conoceme {
+    display: flex;
+} */
+
+@media screen and (max-width:768px) {
+    /* .nav__logo--logo {
+        width: 100%;
+
+    } */
+
+
+    /* .cuerpo h1 {
+        text-align: center;
+    } */
+
+    /* .cuerpoConoceme h1 {
+        text-align: left;
+    } */
+
+    /* .form-container section {
+        flex-direction: column;
+        align-items: center;
+
+    } */
+
+    /* .navbar {
+        font-size: 2em;
+        flex-direction: column;
+    } */
+
+    /* .cuerpo {
+        grid-template-areas: "titulo"
+            "texto"
+            "imagen";
+    } */
+
+    /* .cuerpoConoceme {
+        grid-template-areas: "titulo"
+            "texto"
+            "imagen";
+    } */
+}
+
+/* @media screen and (max-width:480px) {
+
+    .navbar {
+        font-size: 1.2em;
+
+    }
+
+} */

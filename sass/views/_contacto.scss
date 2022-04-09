@@ -1,0 +1,35 @@
+.form-container {
+    display: grid;
+    grid-template-columns: (2, 10em);
+    gap: 4em;
+
+    section {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        background: #57708a;
+        color: aliceblue;
+        font-family: $font-primary;
+    }
+
+    .controls {
+        border-radius: 1em;
+        border: 1px solid black;
+    
+    }
+}
+
+@media screen and (max-width:768px){
+
+    .form-container section {
+        flex-direction: column;
+        align-items: center;
+    
+    }
+}

@@ -1,6 +1,33 @@
 /*imports*/
 /*MISCELANEOUS*/
 @import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Inter:wght@300;500;700&display=swap");
+.p-xlarge {
+  padding: 5rem; }
+
+.p-large {
+  padding: 3rem; }
+
+.p-medium {
+  padding: 2rem; }
+
+.p-small {
+  padding: 1.5rem; }
+
+.p-xsmall {
+  padding: 1rem; }
+
+.img-sofiauni {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-image: url("../public/img/sofiauni.jpg"); }
+
+.img-sofiacurso {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-image: url("../public/img/sofiacurso.jpg"); }
+
 /* reset */
 * {
   margin: 0;
@@ -10,6 +37,10 @@
 /*globales*/
 body {
   background: linear-gradient(to bottom, #49c9f6, #1ed3de, #57d8b7, #94d88e, #cdd171); }
+
+main {
+  max-width: 1080px;
+  margin: 0 auto; }
 
 a {
   text-decoration: none;
@@ -24,8 +55,12 @@ li > a {
 /* PARTIALS */
 header .navbar {
   display: flex;
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
   padding: 0 2em; }
 
 header .nav__logo--logo {
@@ -33,9 +68,12 @@ header .nav__logo--logo {
 
 header .menu {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
   flex-basis: 40%;
-  list-style: none;
-  justify-content: space-between; }
+  list-style: none; }
 
 @media screen and (max-width: 768px) {
   .nav__logo--logo {
@@ -144,15 +182,13 @@ footer {
     font-family: "Inter", sans-serif;
     padding: 1rem; }
 
-.trayectoria-container {
-  display: grid;
-  grid-template-rows: 2, 10em;
-  gap: 2em; }
-  .trayectoria-container main {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    font-family: "Inter", sans-serif; }
+.trayectoria-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem; }
+  .trayectoria-section articule p {
+    padding: 2rem; }
 
 .form-container {
   display: grid;

@@ -1,6 +1,6 @@
 .cuerpoConoceme {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-areas: "titulo texto"
         "imagen texto";
     gap: 1em;
@@ -17,8 +17,6 @@
         grid-area: imagen;
         margin-top: 0em;
         width: 120%;
-        padding: 1em 9em;
-        transition: width .5 ease-in;
     }
 
     p{

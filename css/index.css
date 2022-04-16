@@ -79,12 +79,11 @@ header .menu {
   .nav__logo--logo {
     width: 100%; }
   .navbar {
-    font-size: 2em;
-    flex-direction: column; } }
+    font-size: 1em; } }
 
 @media screen and (max-width: 480px) {
   .navbar {
-    font-size: 1.2em; } }
+    font-size: 0.5em; } }
 
 footer {
   background-color: #46bedd; }
@@ -109,7 +108,7 @@ footer {
 /* VIEWS */
 .cuerpo {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-template-areas: "titulo texto" "imagen texto";
   gap: 1em; }
   .cuerpo h1 {
@@ -142,7 +141,7 @@ footer {
 
 .cuerpoConoceme {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-template-areas: "titulo texto" "imagen texto";
   gap: 1em; }
   .cuerpoConoceme h1 {
@@ -154,9 +153,7 @@ footer {
   .cuerpoConoceme img {
     grid-area: imagen;
     margin-top: 0em;
-    width: 120%;
-    padding: 1em 9em;
-    transition: width .5 ease-in; }
+    width: 120%; }
   .cuerpoConoceme p {
     grid-area: texto;
     font-family: "Bowly One SC", cursive;
